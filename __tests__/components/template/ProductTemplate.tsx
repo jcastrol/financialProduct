@@ -44,7 +44,6 @@ describe('<ProductTemplate />', () => {
       </ProductTemplate>
     );
     
-
     expect(getByTestId('header-container')).toBeDefined();
     expect(getByTestId('children-container')).toBeDefined();
   });
