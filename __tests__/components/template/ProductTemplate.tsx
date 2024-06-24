@@ -43,6 +43,7 @@ describe('<ProductTemplate />', () => {
         <Text testID='children-container'>Children</Text>
       </ProductTemplate>
     );
+    
 
     expect(getByTestId('header-container')).toBeDefined();
     expect(getByTestId('children-container')).toBeDefined();
