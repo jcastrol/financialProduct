@@ -18,6 +18,7 @@ interface Button {
   color?: string;
 }
 const defaultStyles: ViewStyle = {
+  width: '100%',
   justifyContent: 'center',
   alignItems: 'center',
   backgroundColor: '#FFC300',

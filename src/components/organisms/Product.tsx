@@ -12,7 +12,7 @@ type Props = {
   isLoading: boolean;
   isError: boolean;
   handleUpdate:() => Promise<void>
-  handleDelete:() => Promise<void>
+  handleDelete:() => void
 }
 
 const ProductContainer = ({
